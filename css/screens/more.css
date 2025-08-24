@@ -1,9 +1,20 @@
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number i {
+  margin-top: 8px;
+  margin-left: 4px;
+}
+
 .more-screen .icon-row {
   margin-top: 35px;
 }
 
 .more-suggestions {
-  margin-top: 50px;
+  margin-top: 20px;
   border-top: var(--main-border);
   padding-top: 40px;
 }
@@ -31,4 +42,5 @@
 .more-suggestions__icon-image img {
   width: 40px;
   height: 40px;
+  border-radius: 8px;
 }

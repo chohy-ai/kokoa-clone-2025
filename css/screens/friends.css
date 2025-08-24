@@ -1,15 +1,17 @@
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: #fafafa;
+  background-color: #ffe6e4;
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 15px;
   margin-top: -15px;
+  color: #ff7d76;
 }
 
 #friends-display-link i {
-  color: rgba(0, 0, 0, 0.3);
+  color: #ff7d76;
+  margin-right: 4px;
 }
 
 .friends-screen {
@@ -37,4 +39,5 @@
   font-size: 56px;
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 1s;
+  z-index: 2;
 }
